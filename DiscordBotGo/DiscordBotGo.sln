@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscordBotGo", "DiscordBotGo.csproj", "{C4DAD615-C12C-4F1E-8944-068FE26F1B12}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Glicko2", "..\Glicko2\Glicko2.vcxproj", "{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,16 @@ Global
 		{C4DAD615-C12C-4F1E-8944-068FE26F1B12}.Release|x64.Build.0 = Release|Any CPU
 		{C4DAD615-C12C-4F1E-8944-068FE26F1B12}.Release|x86.ActiveCfg = Release|Any CPU
 		{C4DAD615-C12C-4F1E-8944-068FE26F1B12}.Release|x86.Build.0 = Release|Any CPU
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Debug|x64.ActiveCfg = Debug|x64
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Debug|x64.Build.0 = Debug|x64
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Debug|x86.ActiveCfg = Debug|Win32
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Debug|x86.Build.0 = Debug|Win32
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Release|Any CPU.ActiveCfg = Release|Win32
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Release|x64.ActiveCfg = Release|x64
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Release|x64.Build.0 = Release|x64
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Release|x86.ActiveCfg = Release|Win32
+		{09C544C0-73D6-4A66-8DAE-D1A5235DAC39}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -24,16 +24,11 @@ namespace commands {
             await ctx.RespondAsync("Alive");
             await ctx.RespondAsync("私は日本語話せません。");
         }
-
-        [Command("eat_potato")]
-        public async Task potato(CommandContext ctx) {
-            await ctx.RespondAsync("Oh oui!");
-            discord.MessageCreated += async e =>
-            {
-                if (e.Message.Content.ToLower().EndsWith("big"))
-                    await e.Message.RespondAsync("~~Je les aimes bien grosses~~...");
-            };
+        [Command("ranking"), Description("Give your rank.")]
+        public async Task DisplayRank(CommandContext ctx) {
+            await ctx.RespondAsync("Not yet implemented.{ctx.User.Mention}");
         }
+
         [Command("poll"), Description("Run a poll with reactions.")]
         public async Task Poll(CommandContext ctx, [Description("How long should the poll last.")] TimeSpan duration, [Description("What options should people have.")] params DiscordEmoji[] options)
         {
